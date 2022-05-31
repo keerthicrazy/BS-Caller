@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:patternview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.CreateContactPatternFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/create_contact_title"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pattern_create_contact"
+        />
+
+    <com.eftimoff.patternview.PatternView
+        android:id="@+id/cc_patternView"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/create_contact_title"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        patternview:circleColor="@color/colorPrimary"
+        patternview:circleSize="100dp"
+        patternview:dotColor="@color/colorPrimary"
+        patternview:gridColumns="3"
+        patternview:gridRows="3"
+        patternview:pathColor="@color/colorAccent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_pattern_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/pattern_continue"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/cc_patternView"/>
+
+</RelativeLayout>

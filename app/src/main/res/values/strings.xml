@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">BAS Caller</string>
+
+    <string name="call">Call</string>
+    <string name="add_contacts">Add Contacts</string>
+    <string name="call_history">Call History</string>
+    <string name="send_location">Send Location</string>
+    <string name="exit">Exit</string>
+
+    <string name="title_call">BAS Dialer</string>
+    <string name="title_create_contact">Create Contact</string>
+    <string name="title_call_history">History</string>
+    <string name="title_send_location">Send Location</string>
+
+    <string name="pattern_create_contact">Draw Pattern to Create Contact</string>
+    <string name="pattern_confirm_contact">Confirm Pattern to Create Contact</string>
+    <string name="draw_pattern_call">Draw Pattern to Call</string>
+    <string name="draw_pattern_send_location">Draw Pattern to Send Location</string>
+
+    <string name="pattern_continue">Continue</string>
+    <string name="pattern_confirm">Confirm</string>
+    <string name="error">Error</string>
+    <string name="phone_number_error">Please Enter Valid Number</string>
+    <string name="contact_name_error">Please Enter Contact Name</string>
+    <string name="oops">OOPS.. Something went wrong . . .</string>
+    <string name="something_went_wrong">Something went wrong . . .</string>
+    <string name="confirm_pattern_error">Pattern Not Matching..! Try Again</string>
+    <string name="contact_already_exists">Contact Already Exists for this Pattern.. Try Different One</string>
+
+    <string name="contact_name">Contact Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="btn_create_contact">Save Contact</string>
+    <string name="contact_saved_successfully">Contact Saved Successfully</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="warning">Warning</string>
+    <string name="no_contact">No Contact saved for this pattern..</string>
+    <string name="opened_bs_caller">Opened BAS Caller</string>
+    <string name="location_shared_sucessfully">Location Shared Successful !!</string>
+    <string name="channel_name">NOTIFICATION CHANNEL</string>
+    <string name="channel_description">This Channel is used to BS Caller is active</string>
+
+</resources>
